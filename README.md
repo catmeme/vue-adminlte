@@ -61,4 +61,4 @@ Open **config/menus.js**, and modify json data.
 }
 ```
 
-Based on the work of @rorikurniadi, updated to use webpack instead of browserify.
+Based on the work of [@rorikurniadi](https://github.com/rorikurniadi/vuejs-AdminLTE), updated to use webpack instead of browserify.
