@@ -44,7 +44,7 @@ npm run dev
   ```
 
 ### Add Menu
-Open **config/menus.js**, and modify json data.
+Open **config/menu.js**, and modify json data.
 
 ``` html
 {
