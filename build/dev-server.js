@@ -1,9 +1,12 @@
+var path = require('path')
 var express = require('express')
 var webpack = require('webpack')
 var config = require('./webpack.dev.conf')
 
 var app = express()
 var compiler = webpack(config)
+
+app.use('/static', express.static(path.join(__dirname, '../static')))
 
 // handle fallback for HTML5 history API
 app.use(require('connect-history-api-fallback')())

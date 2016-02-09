@@ -5,23 +5,37 @@ module.exports = [
     icon: 'fa-home'
   },
   {
-    name: 'Hello',
-    link: '/hello',
-    icon: 'fa-circle-o'
-  },
-  {
-    name: 'Users',
-    link: '/user',
-    icon: 'fa-user',
+    name: 'UI Elements',
+    icon: 'fa-laptop',
     child: [
       {
-        name: 'New',
-        link: '/user/new',
+        name: 'General',
+        link: '/ui/general',
         icon: 'fa-circle-o'
       },
       {
-        name: 'Lists',
-        link: '/user/lists',
+        name: 'Icons',
+        link: '/ui/icons',
+        icon: 'fa-circle-o'
+      },
+      {
+        name: 'Buttons',
+        link: '/ui/buttons',
+        icon: 'fa-circle-o'
+      },
+      {
+        name: 'Sliders',
+        link: '/ui/sliders',
+        icon: 'fa-circle-o'
+      },
+      {
+        name: 'Timeline',
+        link: '/ui/timeline',
+        icon: 'fa-circle-o'
+      },
+      {
+        name: 'Modals',
+        link: '/ui/modals',
         icon: 'fa-circle-o'
       }
     ]
