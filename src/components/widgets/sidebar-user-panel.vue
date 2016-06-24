@@ -1,5 +1,6 @@
 <template>
-  <!-- Sidebar user panel -->
+  <div>
+    <!-- Sidebar user panel -->
   <div class="user-panel">
     <div class="pull-left image">
       <img src="./../../assets/image/user2-160x160.jpg" class="img-circle" alt="User Image">
@@ -8,5 +9,6 @@
       <p>Alexander Pierce</p>
       <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
     </div>
+  </div>
   </div>
 </template>

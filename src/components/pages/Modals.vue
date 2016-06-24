@@ -1,5 +1,6 @@
 <template>
-  <div class="example-modal">
+  <div>
+    <div class="example-modal">
     <div class="modal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -118,6 +119,7 @@
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
   </div><!-- /.example-modal -->
+  </div>
 </template>
 
 <style>

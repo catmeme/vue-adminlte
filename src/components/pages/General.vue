@@ -1,4 +1,5 @@
 <template>
+  <div>
   <!-- COLOR PALETTE -->
   <div class="box box-default color-palette-box">
     <div class="box-header with-border">
@@ -134,7 +135,7 @@
           </div>
           <div class="alert alert-success alert-dismissable">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <h4>	<i class="icon fa fa-check"></i> Alert!</h4>
+            <h4>  <i class="icon fa fa-check"></i> Alert!</h4>
             Success alert preview. This alert is dismissable.
           </div>
         </div><!-- /.box-body -->
@@ -713,6 +714,8 @@
     </div><!-- ./col -->
   </div><!-- /.row -->
   <!-- END TYPOGRAPHY -->
+
+  </div>
 </template>
 
 <style>
