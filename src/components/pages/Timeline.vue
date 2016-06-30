@@ -1,6 +1,5 @@
 <template>
   <section class="content">
-
     <!-- row -->
     <div class="row">
       <div class="col-md-12">
@@ -151,4 +150,5 @@
         </div><!-- /.box -->
       </div><!-- /.col -->
     </div><!-- /.row -->
+  </section>
 </template>

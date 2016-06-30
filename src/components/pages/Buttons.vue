@@ -1,4 +1,5 @@
 <template>
+  <div>
     <div class="row">
       <div class="col-md-12">
         <div class="box box-primary">
@@ -860,4 +861,5 @@
         </div><!-- /.box -->
       </div><!-- /.col -->
     </div><!-- /. row -->
-  </template>
+  </div>
+</template>
