@@ -61,4 +61,20 @@ Open **config/menu.js**, and modify json data.
 }
 ```
 
+### Deploying on github
+
+You *can* host this on gh-pages, it's not perfect as you'll notice, the routing wants to believe it's at the `username.github.io` root. That being said, it's still worth deploying to give others an idea of how the project works.
+
+I've included a helper script to deploy from the `dist` folder by creating a temporary git branch based on the dist subtree.
+
+```
+./bin/deploy.sh
+```
+
+### License
+
+MIT License, enjoy!
+
+### Credit
+
 Based on the work of [@rorikurniadi](https://github.com/rorikurniadi/vuejs-AdminLTE), updated to use webpack instead of browserify.
